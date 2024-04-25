@@ -1,0 +1,8 @@
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\obj\Debug\EvidenceHer.csproj.AssemblyReference.cache
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\obj\Debug\EvidenceHer.csproj.SuggestedBindingRedirects.cache
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\obj\Debug\EvidenceHer.csproj.CoreCompileInputs.cache
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\bin\Debug\EvidenceHer.exe.config
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\bin\Debug\EvidenceHer.exe
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\bin\Debug\EvidenceHer.pdb
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\obj\Debug\EvidenceHer.exe
+C:\Users\msvob\source\repos\opakovani\EvidenceHer\EvidenceHer\obj\Debug\EvidenceHer.pdb
