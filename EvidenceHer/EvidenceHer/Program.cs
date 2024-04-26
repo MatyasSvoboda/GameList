@@ -255,7 +255,7 @@ namespace EvidenceHer
 
         public void Export()
         {
-            StreamWriter vypis = new StreamWriter("hry.txt");
+            using(StreamWriter vypis = new StreamWriter("hry.txt"));
             foreach (Hra hra in Db)
             {
                 vypis.WriteLine(hra);
