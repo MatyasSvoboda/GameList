@@ -255,12 +255,12 @@ namespace EvidenceHer
 
         public void Export()
         {
-            using(StreamWriter vypis = new StreamWriter("hry.txt"));
-            foreach (Hra hra in Db)
-            {
-                vypis.WriteLine(hra);
+            using(StreamWriter vypis = new StreamWriter("hry.txt")){
+                 foreach (Hra hra in Db)
+                {
+                    vypis.WriteLine(hra);
+                }   
             }
-            vypis.Close();
         } 
     }
 }
