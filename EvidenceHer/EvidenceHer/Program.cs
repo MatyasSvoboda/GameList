@@ -255,12 +255,17 @@ namespace EvidenceHer
 
         public void Export()
         {
-            using(StreamWriter vypis = new StreamWriter("hry.txt")){
-                 foreach (Hra hra in Db)
+            using (StreamWriter vypis = new StreamWriter("C:\\Users\\msvob\\source\\repos\\opakovani\\EvidenceHer\\EvidenceHer\\hry.txt"))
+            {
+                foreach (Hra hra in Db)
                 {
-                    vypis.WriteLine(hra);
-                }   
+                    vypis.WriteLine("------- V A Š E  H R Y -------");
+                    vypis.WriteLine();
+                    vypis.WriteLine(hra.Nazev + "-" + hra.Vyrobce + "-" + hra.RokVydani + "-" + hra.Pegi);
+                }
             }
+            Console.WriteLine("Exportuji do souboru ....");
+            Console.WriteLine("Pomocí - ENTER - dokonči export");
         } 
     }
 }
